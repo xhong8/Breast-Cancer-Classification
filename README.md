@@ -1,8 +1,8 @@
 # Breast Cancer Classification
 ## 1. Objective
 To create a Feedforward Neural Network model with high accuracy (> 80%) that predict breast cancer, whether the tumour is <br />
-&nbsp;&nbsp; i. malignant, or <br />
-&nbsp;&nbsp; ii. benign <br />
+&nbsp;&nbsp; i. &nbsp; malignant, or <br />
+&nbsp;&nbsp; ii. &nbsp; benign <br />
 
 ## 2. Dataset
 The model is trained with [Breast Cancer Wisconsin (Diagnostic) Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
@@ -13,7 +13,7 @@ The model is trained with [Breast Cancer Wisconsin (Diagnostic) Dataset](https:/
 
 ## 4. Methodology
 ### 4.1. Data Pipeline
-The data is first loaded and preprocessed, such that unwanted features are removed, and label is encoded in one-hot format. Then the data is split into train-validation-test sets, with a ratio of 60:20:20.
+Load the data and then preprocess the data to remove unuse features. The label is encoded in one-hot format. Next, the data is split into train-validation-test sets, with a ratio of 60:20:20.
 
 ### 4.2. Model Pipeline
 A feedforward neural network is constructed that is catered for classification problem. <br />
