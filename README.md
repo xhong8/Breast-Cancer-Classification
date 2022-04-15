@@ -8,15 +8,15 @@ To create a Feedforward Neural Network model with high accuracy (> 80%) that pre
 The model is trained with [Breast Cancer Wisconsin (Diagnostic) Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 ## 3. IDE and Framework
-<b>IDE<b>: Sypder  <br />
-<b>Frameworks<b>: Pandas, Scikit-learn and TensorFlow Keras.
+- <b>IDE<b>: Sypder  <br />
+- <b>Frameworks<b>: Pandas, Scikit-learn and TensorFlow Keras.
 
 ## 4. Methodology
 ### 4.1. Data Pipeline
 The data is first loaded and preprocessed, such that unwanted features are removed, and label is encoded in one-hot format. Then the data is split into train-validation-test sets, with a ratio of 60:20:20.
 
 ### 4.2. Model Pipeline
-A feedforward neural network is constructed that is catered for classification problem. 
+A feedforward neural network is constructed that is catered for classification problem. <br />
 The structure of the model is shown as Figure below.
 
 ![Model Structure](images/model.jpg)
