@@ -1,15 +1,15 @@
 # Breast Cancer Classification
 ## 1. Objective
 To create a Feedforward Neural Network model with high accuracy (> 80%) that predict breast cancer, whether the tumour is <br />
-&nbsp;&nbsp; i) malignant, or <br />
-&nbsp;&nbsp; ii) benign <br />
+&nbsp;&nbsp; i. malignant, or <br />
+&nbsp;&nbsp; ii. benign <br />
 
 ## 2. Dataset
 The model is trained with [Breast Cancer Wisconsin (Diagnostic) Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 ## 3. IDE and Framework
-&nbsp;&nbsp; i) IDE: Sypder 
-&nbsp;&nbsp; ii) Frameworks: Pandas, Scikit-learn and TensorFlow Keras.
+<b>IDE<b>: Sypder  <br />
+<b>Frameworks<b>: Pandas, Scikit-learn and TensorFlow Keras.
 
 ## 4. Methodology
 ### 4.1. Data Pipeline
